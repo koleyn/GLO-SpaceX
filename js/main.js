@@ -8,3 +8,4 @@ var rellax = new Rellax('.rocket');
 if (document.body.clientWidth < 676) {
     rellax.destroy();
 }
+AOS.init();
